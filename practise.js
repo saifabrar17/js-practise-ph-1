@@ -1,13 +1,27 @@
-// inches to feet
-function inchesToFeet(inches){
-    var feet = inches / 12;
-    return feet;
+//miles to kilometer
+function mileToKm(miles){
+    var kilometer = miles * 1.60934;
+    return kilometer;
 }
 
-var myInches = 135;
-var feet = inchesToFeet(myInches);
+var marathon = 10;
+var run = mileToKm(marathon);
+console.log(run);
 
-console.log(feet);
+
+
+
+
+// inches to feet
+// function inchesToFeet(inches){
+//     var feet = inches / 12;
+//     return feet;
+// }
+
+// var myInches = 135;
+// var feet = inchesToFeet(myInches);
+
+// console.log(feet);
 
 
 
