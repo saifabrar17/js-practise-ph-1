@@ -1,9 +1,25 @@
-function addNumber(number1, number2) {
-    return "Result is " + number1 + number2;
-   }
+// inches to feet
+function inchesToFeet(inches){
+    var feet = inches / 12;
+    return feet;
+}
+
+var myInches = 135;
+var feet = inchesToFeet(myInches);
+
+console.log(feet);
+
+
+
+
+
+
+// function addNumber(number1, number2) {
+//     return "Result is " + number1 + number2;
+//    }
    
-   var result = addNumber(5, 4);
-   console.log(typeof result);
+//    var result = addNumber(5, 4);
+//    console.log(typeof result);
 
 // function addTwoNumber(number1, number2) {
 //     console.log(number1, number2);
