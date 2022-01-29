@@ -1,12 +1,28 @@
-//miles to kilometer
-function mileToKm(miles){
-    var kilometer = miles * 1.60934;
-    return kilometer;
+// even check
+function isEven(number){
+    if(number % 2 == 0){
+        console.log("true");
+        return true;
+    }
+    else{
+        console.log("false");
+        return false;
+    }
 }
 
-var marathon = 10;
-var run = mileToKm(marathon);
-console.log(run);
+const myNumber = 246;
+const isMyNumEven = isEven(myNumber);
+
+
+// //miles to kilometer
+// function mileToKm(miles){
+//     var kilometer = miles * 1.60934;
+//     return kilometer;
+// }
+
+// var marathon = 10;
+// var run = mileToKm(marathon);
+// console.log(run);
 
 
 
