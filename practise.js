@@ -1,19 +1,36 @@
-// leap year
-
-function isLeapYear(year){
-    if(year % 4 == 0){
-        console.log(year ,"is a leap year!");
-        return true;
-    }
-    else{
-        console.log(year ,"is NOT leap year!");
-        return false;
-    }
+// FACTORIAL
+var factorial = 1;
+for( var i = 1 ; i<= 3; i++){
+    var factorial = factorial *  i;
+    
 }
+console.log(factorial);
 
 
-const givenYear= 2022;
-const checkResult = isLeapYear(givenYear);
+
+
+
+
+
+
+
+
+// // leap year
+
+// function isLeapYear(year){
+//     if(year % 4 == 0){
+//         console.log(year ,"is a leap year!");
+//         return true;
+//     }
+//     else{
+//         console.log(year ,"is NOT leap year!");
+//         return false;
+//     }
+// }
+
+
+// const givenYear= 2022;
+// const checkResult = isLeapYear(givenYear);
 
 
 
