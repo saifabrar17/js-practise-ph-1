@@ -1,17 +1,38 @@
-// even check
-function isEven(number){
-    if(number % 2 == 0){
-        console.log("true");
+// leap year
+
+function isLeapYear(year){
+    if(year % 4 == 0){
+        console.log(year ,"is a leap year!");
         return true;
     }
     else{
-        console.log("false");
+        console.log(year ,"is NOT leap year!");
         return false;
     }
 }
 
-const myNumber = 246;
-const isMyNumEven = isEven(myNumber);
+
+const givenYear= 2022;
+const checkResult = isLeapYear(givenYear);
+
+
+
+
+
+// even check
+// function isEven(number){
+//     if(number % 2 == 0){
+//         console.log("true");
+//         return true;
+//     }
+//     else{
+//         console.log("false");
+//         return false;
+//     }
+// }
+
+// const myNumber = 246;
+// const isMyNumEven = isEven(myNumber);
 
 
 // //miles to kilometer
