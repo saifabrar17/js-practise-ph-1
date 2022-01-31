@@ -10,7 +10,7 @@
 // console.log(sum);
 
 
-METHOD 2
+//METHOD 2
 function arrayTotal(numbers){
     let sum = 0;
     for(let i = 0; i<numbers.length; i++){
