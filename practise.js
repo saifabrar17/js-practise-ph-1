@@ -1,124 +1,13 @@
-// FACTORIAL
-var factorial = 1;
-for( var i = 1 ; i<= 3; i++){
-    var factorial = factorial *  i;
-    
+function largestNum(first, second, third){
+    if(first > second && first > third){
+        return first;
+    }
+    else if(second > first && second > third){
+        return second;
+    }
+    else{
+        return third;
+    }
 }
-console.log(factorial);
-
-
-
-
-
-
-
-
-
-
-// // leap year
-
-// function isLeapYear(year){
-//     if(year % 4 == 0){
-//         console.log(year ,"is a leap year!");
-//         return true;
-//     }
-//     else{
-//         console.log(year ,"is NOT leap year!");
-//         return false;
-//     }
-// }
-
-
-// const givenYear= 2022;
-// const checkResult = isLeapYear(givenYear);
-
-
-
-
-
-// even check
-// function isEven(number){
-//     if(number % 2 == 0){
-//         console.log("true");
-//         return true;
-//     }
-//     else{
-//         console.log("false");
-//         return false;
-//     }
-// }
-
-// const myNumber = 246;
-// const isMyNumEven = isEven(myNumber);
-
-
-// //miles to kilometer
-// function mileToKm(miles){
-//     var kilometer = miles * 1.60934;
-//     return kilometer;
-// }
-
-// var marathon = 10;
-// var run = mileToKm(marathon);
-// console.log(run);
-
-
-
-
-
-// inches to feet
-// function inchesToFeet(inches){
-//     var feet = inches / 12;
-//     return feet;
-// }
-
-// var myInches = 135;
-// var feet = inchesToFeet(myInches);
-
-// console.log(feet);
-
-
-
-
-
-
-// function addNumber(number1, number2) {
-//     return "Result is " + number1 + number2;
-//    }
-   
-//    var result = addNumber(5, 4);
-//    console.log(typeof result);
-
-// function addTwoNumber(number1, number2) {
-//     console.log(number1, number2);
-//     var total = number1 * number2;
-//     return total;
-
-// }
-
-// var firstNumber = 40;
-// var secondNumber = 40;
-
-// var result = addTwoNumber(firstNumber, secondNumber);
-// console.log("result: ", result);
-
-
-
-
-
-
-
-
-
-
-// function bringSingara(taka){
-//     console.log("singara er jonno dise", taka);
-//     console.log("mama singara den.");
-//     var singaraPrice= 10;
-//     var singaraQuantity= taka/ singaraPrice;
-//     return singaraQuantity;
-// }
-
-// var money = 90;
-// var singara = bringSingara(money);
-// console.log("ei nen singara ", singara);
+var values = largestNum(16, 8, 22);
+console.log("largest is", values);
