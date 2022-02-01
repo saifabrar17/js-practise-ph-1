@@ -1,17 +1,13 @@
-const names = ['abul', 'kabul', 'sabul', 'babul', 'abul', 'dabul', 'sabul', 'kabul', 'babul'];
-function removeDuplicate(names){
-  const unique = [];
-  for (const element of names){
-    // console.log(element);
-    if(unique.indexOf(element) == -1){
-      unique.push(element);
-    }
+const string = 'hello hpw are you';
+
+function stringReverse(text){
+  let reverse = '';
+  for(const letter of text){
+    console.log(letter);
+    reverse = letter + reverse;
   }
-  return unique;
+return reverse;
 }
 
-
-
-
-const uniqueNames = removeDuplicate(names);
-console.log(uniqueNames);
+const reversed = stringReverse(string);
+console.log(reversed);
