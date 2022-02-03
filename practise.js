@@ -1,13 +1,15 @@
-const string = 'hello hpw are you';
+const products = [
+  { name: 'laptop', price: 5000, quantity: 3 },
+  { name: 'shirt', price: 5000, quantity: 1  },
+  { name: 'bodySpray', price: 5000, quantity: 2  },
+  { name: 'watch', price: 5000, quantity: 1 }
+];
 
-function stringReverse(text){
-  let reverse = '';
-  for(const letter of text){
-    console.log(letter);
-    reverse = letter + reverse;
-  }
-return reverse;
-}
+let totalPrice = 0;
 
-const reversed = stringReverse(string);
-console.log(reversed);
+for (const product of products){
+  totalPrice +=  product.price * product.quantity;
+//error khailam eikhane. totalprice er sathe for e declare kora const var
+//er por . diye object k call korte hobe 
+};
+console.log(totalPrice);
