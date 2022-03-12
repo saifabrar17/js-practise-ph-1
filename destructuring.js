@@ -15,4 +15,4 @@ const {lab, major} = student.course;
 console.log(name);
 console.log(year);
 console.log(lab);
-console.log(major);
+console.log(major);//
